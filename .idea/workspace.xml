@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52d0ad11-c909-40de-b23b-2823b0591c60" name="Default Changelist" comment="" />
+    <list default="true" id="52d0ad11-c909-40de-b23b-2823b0591c60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/20220209-1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/20220209-2-1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/20220209-2-2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/0739.daily-temperatures/0739.daily-temperatures.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/0739.daily-temperatures/0739.daily-temperatures.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solution/0739.daily-temperatures/0739.daily-temperatures_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,27 +25,35 @@
     </option>
   </component>
   <component name="GOROOT" path="E:\Program Files\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="23pGWGXaHg7v8CoxU6GsSIepOO9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/solution/0072.edit-distance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/interview" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\zonstCopy\GolandProjects\LeetCode\interview" />
+      <recent name="F:\zonstCopy\GolandProjects\LeetCode\solution\0739.daily-temperatures" />
       <recent name="F:\zonstCopy\GolandProjects\LeetCode2\solution\0072.edit-distance" />
       <recent name="F:\zonstCopy\GolandProjects\LeetCode2\solution\0300.longest-increasing-subsequence" />
       <recent name="F:\zonstCopy\GolandProjects\LeetCode2\solution\0698.partition-to-k-equal-sum-subsets" />
-      <recent name="F:\zonstCopy\GolandProjects\LeetCode2\solution\0078.subsets" />
-      <recent name="F:\zonstCopy\GolandProjects\LeetCode2\solution\0046.permutations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\zonstCopy\GolandProjects\LeetCode\solution\" />
       <recent name="F:\zonstCopy\GolandProjects\LeetCode2\solution\" />
       <recent name="F:\zonstCopy\GolandProjects\LeetCode2\solution" />
     </key>
@@ -53,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test0698 in LeetCode/solution/0698.partition-to-k-equal-sum-subsets">
+  <component name="RunManager" selected="Go Test.Test0739 in LeetCode/solution/0739.daily-temperatures">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -61,15 +78,6 @@
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/" />
       <package value="LeetCode2" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build LeetCode2/interview" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/interview/20220119.go" />
-      <package value="LeetCode2/interview" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -108,13 +116,24 @@
     </configuration>
     <configuration name="Test0698 in LeetCode/solution/0698.partition-to-k-equal-sum-subsets" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/../LeetCode/solution/0698.partition-to-k-equal-sum-subsets" />
+      <working_directory value="$PROJECT_DIR$/solution/0698.partition-to-k-equal-sum-subsets" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="LeetCode/solution/0698.partition-to-k-equal-sum-subsets" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test0698$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test0739 in LeetCode/solution/0739.daily-temperatures" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$/solution/0739.daily-temperatures" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="LeetCode/solution/0739.daily-temperatures" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test0739$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -130,16 +149,29 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test0739 in LeetCode/solution/0739.daily-temperatures" />
         <item itemvalue="Go Test.Test0698 in LeetCode/solution/0698.partition-to-k-equal-sum-subsets" />
         <item itemvalue="Go Test.Test0300 in LeetCode2/solution/0300.longest-increasing-subsequence" />
         <item itemvalue="Go Test.Test0698 in LeetCode2/solution/0698.partition-to-k-equal-sum-subsets" />
         <item itemvalue="Go Test.Test0046 in LeetCode2/solution/0046.permutations (2)" />
-        <item itemvalue="Go Build.go build LeetCode2/interview" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -149,54 +181,59 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/solution/0785.is-graph-bipartite/0785.is-graph-bipartite_test.go</url>
+          <url>file://$PROJECT_DIR$/solution/0785.is-graph-bipartite/0785.is-graph-bipartite_test.go</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/solution/0785.is-graph-bipartite/0785.is-graph-bipartite.go</url>
+          <url>file://$PROJECT_DIR$/solution/0785.is-graph-bipartite/0785.is-graph-bipartite.go</url>
           <line>59</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/solution/0046.permutations/0046.permutations_test.go</url>
+          <url>file://$PROJECT_DIR$/solution/0046.permutations/0046.permutations_test.go</url>
           <line>9</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/interview/20220119.go</url>
+          <url>file://$PROJECT_DIR$/interview/20220119.go</url>
           <line>6</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/solution/0046.permutations/0046.permutations.go</url>
+          <url>file://$PROJECT_DIR$/solution/0046.permutations/0046.permutations.go</url>
           <line>39</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/solution/0046.permutations/0046.permutations_2.go</url>
+          <url>file://$PROJECT_DIR$/solution/0046.permutations/0046.permutations_2.go</url>
           <line>31</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/solution/0698.partition-to-k-equal-sum-subsets/0698.partition-to-k-equal-sum-subsets_test.go</url>
+          <url>file://$PROJECT_DIR$/solution/0698.partition-to-k-equal-sum-subsets/0698.partition-to-k-equal-sum-subsets_test.go</url>
           <line>10</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/solution/0698.partition-to-k-equal-sum-subsets/0698.partition-to-k-equal-sum-subsets.go</url>
+          <url>file://$PROJECT_DIR$/solution/0698.partition-to-k-equal-sum-subsets/0698.partition-to-k-equal-sum-subsets.go</url>
           <line>17</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/solution/0698.partition-to-k-equal-sum-subsets/0698.partition-to-k-equal-sum-subsets.go</url>
+          <url>file://$PROJECT_DIR$/solution/0698.partition-to-k-equal-sum-subsets/0698.partition-to-k-equal-sum-subsets.go</url>
           <line>34</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/../LeetCode/solution/0300.longest-increasing-subsequence/0300.longest-increasing-subsequence_test.go</url>
+          <url>file://$PROJECT_DIR$/solution/0300.longest-increasing-subsequence/0300.longest-increasing-subsequence_test.go</url>
           <line>9</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/solution/0739.daily-temperatures/0739.daily-temperatures_test.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
