@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52d0ad11-c909-40de-b23b-2823b0591c60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/20220209-1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/20220209-2-1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/20220209-2-2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/0739.daily-temperatures/0739.daily-temperatures.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/0739.daily-temperatures/0739.daily-temperatures.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution/0739.daily-temperatures/0739.daily-temperatures_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,17 +28,18 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="23pGWGXaHg7v8CoxU6GsSIepOO9" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/interview" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -70,9 +67,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test0739 in LeetCode/solution/0739.daily-temperatures">
+  <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="LeetCode" />
+      <module name="LeetCode-Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
@@ -81,63 +78,19 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="Test0046 in LeetCode2/solution/0046.permutations (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/solution/0046.permutations" />
+    <configuration name="Test0001 in LeetCode-Go/solution/0001.two-sum" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode-Go" />
+      <working_directory value="$PROJECT_DIR$/solution/0001.two-sum" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="LeetCode2/solution/0046.permutations" />
+      <package value="LeetCode-Go/solution/0001.two-sum" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test0046$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test0300 in LeetCode2/solution/0300.longest-increasing-subsequence" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/solution/0300.longest-increasing-subsequence" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="LeetCode2/solution/0300.longest-increasing-subsequence" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test0300$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test0698 in LeetCode2/solution/0698.partition-to-k-equal-sum-subsets" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/solution/0698.partition-to-k-equal-sum-subsets" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="LeetCode2/solution/0698.partition-to-k-equal-sum-subsets" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test0698$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test0698 in LeetCode/solution/0698.partition-to-k-equal-sum-subsets" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/solution/0698.partition-to-k-equal-sum-subsets" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="LeetCode/solution/0698.partition-to-k-equal-sum-subsets" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test0698$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test0739 in LeetCode/solution/0739.daily-temperatures" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/solution/0739.daily-temperatures" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="LeetCode/solution/0739.daily-temperatures" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test0739$" />
+      <pattern value="^Test0001$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="LeetCode" />
+      <module name="LeetCode-Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <framework value="gotest" />
@@ -149,11 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test0739 in LeetCode/solution/0739.daily-temperatures" />
-        <item itemvalue="Go Test.Test0698 in LeetCode/solution/0698.partition-to-k-equal-sum-subsets" />
-        <item itemvalue="Go Test.Test0300 in LeetCode2/solution/0300.longest-increasing-subsequence" />
-        <item itemvalue="Go Test.Test0698 in LeetCode2/solution/0698.partition-to-k-equal-sum-subsets" />
-        <item itemvalue="Go Test.Test0046 in LeetCode2/solution/0046.permutations (2)" />
+        <item itemvalue="Go Test.Test0001 in LeetCode-Go/solution/0001.two-sum" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +121,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="add interview" />
+    <option name="LAST_COMMIT_MESSAGE" value="add interview" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
