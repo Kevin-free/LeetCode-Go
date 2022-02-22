@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52d0ad11-c909-40de-b23b-2823b0591c60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interview/20220221-1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/20220221-2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
