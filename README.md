@@ -4,7 +4,9 @@
 
 This repo shows my solutions in Go. Please feel free to reference and **STAR** to support this repo if it can help you, thank you!
 
-
+<p align='center'>
+<img src='./logo.png'>
+</p>
 
 ![logo](./logo.png)
 
