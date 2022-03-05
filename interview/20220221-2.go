@@ -20,21 +20,9 @@ func isValid(nums []int) bool {
 	cha := nums[1] - nums[0]
 	for i := 2; i < length; i++ {
 		// 若有一个差值不同，则不为等差数列
-		if nums[i] - nums[i-1] != cha {
+		if nums[i]-nums[i-1] != cha {
 			return false
 		}
 	}
 	return true
-}
-
-// 方法二：公式法
-// Sn = n*a1 + n*(n-1)*cha/2
-func isValid2(nums []int) bool {
-	length := len(nums)
-	if length <= 1 {
-		return true
-	}
-	// 升序排序
-	sort.Ints(nums)
-
 }
