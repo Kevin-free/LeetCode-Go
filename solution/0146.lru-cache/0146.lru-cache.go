@@ -19,7 +19,7 @@ func Constructor(capacity int) LRUCache {
 }
 
 func (this *LRUCache) Get(key int) int {
-	node, exist := this.knMap[key]022
+	node, exist := this.knMap[key]
 	if !exist {
 		// 未找到，返回 -1
 		return -1

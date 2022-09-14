@@ -1,8 +1,8 @@
 package _209_minimum_size_subarray_sum
 
 import (
+	"LeetCode-Go/util"
 	"math"
-	"myutil"
 )
 
 /**
@@ -23,7 +23,7 @@ https://leetcode-cn.com/problems/minimum-size-subarray-sum/
 //				sum += nums[end]
 //				if sum >= s {
 //					len := end - start + 1
-//					ans = myutil.MinInt(ans, len)
+//					ans = util.MinInt(ans, len)
 //					break
 //				} else {
 //					end++
@@ -45,15 +45,15 @@ func minSubArrayLen(s int, nums []int) int {
 		return 0
 	}
 	ans := math.MaxInt32 // 定义结果为最大值
-	start, end := 0, 0 // 左右边界
-	sum := 0 // 临时变量存和
+	start, end := 0, 0   // 左右边界
+	sum := 0             // 临时变量存和
 	// 遍历数组
 	for end < length {
 		// 求和
 		sum += nums[end]
 		// 当 sum 大或等于目标 s 时，则更新子数组的最小长度（此时子数组的长度是 end-start+1），并减去 nums[start] ，将 start 右移
 		for sum >= s {
-			ans = myutil.MinInt(ans, end-start+1)
+			ans = util.MinInt(ans, end-start+1)
 			sum -= nums[start]
 			start++
 		}

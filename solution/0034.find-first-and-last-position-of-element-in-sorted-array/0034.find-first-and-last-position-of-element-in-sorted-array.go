@@ -5,7 +5,7 @@ import "sort"
 // 34. 在排序数组中查找元素的第一个和最后一个位置：中等
 // tag：数组、二分查找
 // 只用一个边界方法
-func searchRange(nums []int, target int) []int {
+func searchRangeOneBound(nums []int, target int) []int {
 	// 目标值开始位置：为目标值的左侧边界，无此值则返回比它大的数的左侧边界
 	start := findLeftBound(nums, target)
 	// 如果开始位置越界 或 目标值不存在，直接返回
@@ -18,7 +18,7 @@ func searchRange(nums []int, target int) []int {
 }
 
 // 用两个边界方法
-func searchRange(nums []int, target int) []int {
+func searchRangeTwoBound(nums []int, target int) []int {
 	// 目标值开始位置：为 target 的左侧边界
 	start := findLeftBound(nums, target)
 	// 如果开始位置越界 或 目标值不存在，直接返回

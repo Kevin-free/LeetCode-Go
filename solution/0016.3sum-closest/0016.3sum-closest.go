@@ -1,13 +1,13 @@
 package _016_3sum_closest
 
 import (
-	"myutil"
+	"LeetCode-Go/util"
 	"sort"
 )
 
 /**
 16. 最接近的三数之和
- */
+*/
 func threeSumClosest(nums []int, target int) int {
 	sort.Ints(nums) // 排序
 	length := len(nums)
@@ -16,7 +16,7 @@ func threeSumClosest(nums []int, target int) int {
 		l, r := i+1, length-1
 		for l < r {
 			sum := nums[i] + nums[l] + nums[r]
-			if myutil.AbsInt(target-sum) < myutil.AbsInt(target-ans) {
+			if util.AbsInt(target-sum) < util.AbsInt(target-ans) {
 				ans = sum
 			}
 			if sum < target {
