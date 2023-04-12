@@ -5,6 +5,7 @@ import "container/heap"
 // 2022.02.09 杭州-心光流美-线上一面-算法题2
 // 前 K 个高频元素(力扣347）
 // 方法一：小顶堆
+// 时间复杂度：O(nlogk), n 是数组长度，k 是堆中元素个数。
 func topKFrequent(nums []int, k int) []int {
 	var res []int
 	// 1. map 统计频率
